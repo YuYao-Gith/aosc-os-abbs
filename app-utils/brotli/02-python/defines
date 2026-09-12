@@ -1,0 +1,11 @@
+PKGNAME=python-brotli
+PKGSEC=python
+PKGDEP="brotli python-3"
+BUILDDEP="setuptools pypkgconfig"
+PKGDES="Python bindings for brotli"
+
+NOPYTHON2=1
+ABTYPE=pep517
+
+PKGBREAK="brotli<=1.2.0-2"
+PKGREP="brotli<=1.2.0-2"

@@ -1,0 +1,9 @@
+PKGNAME=brotli
+PKGSEC=utils
+PKGDEP="gcc-runtime"
+PKGDES="Brotli compression library and utility"
+
+ABTYPE=cmakeninja
+
+# Needed by Afterglow, whereas FAIL_ARCH defaults to mainline-only.
+FAIL_ARCH="!(mainline|retro)"
